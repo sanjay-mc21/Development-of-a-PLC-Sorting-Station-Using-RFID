@@ -1,0 +1,92 @@
+Project Report
+ Development of a PLC Sorting Station Using RFID
+
+
+Team Name:			Team Automata
+Team Members:			Sanjay K, Logesh J, Hrithik J R, Deva P, Sriharish J
+Title:					Development of a PLC Sorting Station Using RFID
+Date: 				05 NOV 2023
+Institution/Organization: 	Bannari Amman Institute of Technology
+
+
+
+Abstract
+This project proposes the development of an advanced Radio Frequency Identification (RFID)-based Industrial Internet of Things (IoT) module to enhance the efficiency and automation of object sorting stations. By leveraging RFID technology for wireless object identification, tracking, and communication, this module aims to design and implement an intelligent object sorting station. Node-RED will be used to integrate and manage hardware devices, APIs, and online services for seamless data exchange and control. The goal is to enable real-time tracking and categorising of items based on their RFID tags, improving sorting efficiency.
+
+
+
+
+
+Table of Contents
+01
+Introduction
+02
+Literature Review
+03
+Methodology
+04
+Implementation
+05
+Results
+06
+Discussion
+07
+Conclusion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+The integration of RFID technology into sorting systems represents a significant advancement in automation and efficiency. This project focuses on developing a PLC sorting station that utilizes RFID technology to identify and categorize items based on their RFID tags. By implementing a sophisticated Industrial IoT module, the sorting process can be streamlined, ensuring accurate and efficient handling of various objects.
+
+Literature Review
+Previous research has highlighted the effectiveness of RFID technology in logistics and manufacturing environments. However, there remains a need for enhanced systems that leverage IoT capabilities to improve object tracking and sorting processes. This project addresses this gap by utilizing an RFID-based Industrial IoT module integrated with Node-RED for real-time monitoring and control.
+
+
+
+ Methodology
+Tech Stack:
+Siemens S7-1500 PLC: Central control unit for sorting operations.
+ESP32 Module: Facilitates communication between the RFID reader and PLC.
+Node-RED: Provides a visual programming interface for managing hardware devices and data flow.
+System Components:
+Actuators: Two double-acting solenoid valves for sorting control.
+Sensors: Five sensors for detecting object presence and positioning.
+Conveyors: Four conveyor modules to transport objects through the sorting process.
+
+Process Overview:
+The RFID reader collects data for each object with an RFID tag.
+The data is transmitted to the ESP32 module, which processes the information.
+The ESP32 sends signals to the PLC relay module to activate the appropriate solenoid valve for sorting.
+The Node-RED dashboard displays the sorting data and object specifications in real-time.
+
+ Implementation
+The implementation phase involves the assembly of the sorting station, integration of RFID technology, and programming of the PLC. The Node-RED platform was used to create a dashboard that provides real-time updates on the sorting process. The system was tested for accuracy in object identification and sorting efficiency, with adjustments made as necessary to optimize performance.
+
+ Results
+The developed sorting station demonstrated the capability to accurately read RFID tags and sort objects based on predefined specifications. Real-time data collected during the sorting process was successfully displayed on the Node-RED dashboard, allowing for efficient monitoring and management.
+
+
+ Discussion
+The results indicate that the RFID-based Industrial IoT module significantly improves the efficiency of sorting operations. The integration of Node-RED as a control hub enhances system flexibility, enabling easier updates and modifications. Future work may involve exploring additional automation features and expanding the system to handle a broader range of objects.
+
+ Conclusion
+This project successfully developed a PLC sorting station utilizing RFID technology and an Industrial IoT module. The system demonstrates enhanced sorting efficiency through real-time data tracking and control via Node-RED. The findings contribute to the ongoing advancement of automated sorting systems in industrial applications.
