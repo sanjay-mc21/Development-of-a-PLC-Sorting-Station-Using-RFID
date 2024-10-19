@@ -35,7 +35,6 @@ PLC Environment: Install TIA Portal or your preferred PLC programming environmen
 Usage
 Ensure all hardware components are connected as per the wiring diagrams provided in the docs folder.
 Power on the system and start Node-RED.
-Access the Node-RED dashboard through your web browser at http://localhost:1880.
 Place objects with RFID tags on the conveyor; the system will automatically sort them based on predefined criteria.
 Testing and Results
 The sorting station has been tested to ensure accurate RFID tag reading and effective sorting. Detailed results and performance metrics are documented in the tests folder.
