@@ -1,6 +1,7 @@
 PLC Sorting Station Using RFID
 Overview
 The PLC Sorting Station Using RFID project aims to develop an advanced sorting system that enhances efficiency and automation in industrial environments. By leveraging RFID technology for wireless object identification and tracking, this system provides real-time sorting capabilities. The project utilizes Siemens S7-1500 PLC, ESP32 module, and Node-RED for seamless data integration and visualization.
+
 Table of Contents
 Features
 Technologies
@@ -31,8 +32,14 @@ Four Conveyors
 Software Setup
 Node-RED: Ensure Node-RED is installed. Installation Guide
 PLC Environment: Install TIA Portal or your preferred PLC programming environment.
+Usage
+Ensure all hardware components are connected as per the wiring diagrams provided in the docs folder.
+Power on the system and start Node-RED.
+Access the Node-RED dashboard through your web browser at http://localhost:1880.
+Place objects with RFID tags on the conveyor; the system will automatically sort them based on predefined criteria.
 Testing and Results
-The sorting station has been tested to ensure accurate RFID tag reading and effective sorting. 
+The sorting station has been tested to ensure accurate RFID tag reading and effective sorting. Detailed results and performance metrics are documented in the tests folder.
+
 Troubleshooting
 Issue: RFID reader not detecting tags.
 Solution: Check connections and ensure tags are within the reader's range.
@@ -44,10 +51,9 @@ Expand the system to handle a broader range of objects and sorting criteria.
 Integrate machine learning algorithms for enhanced decision-making.
 Contributing
 Contributions are welcome! Please follow these steps:
+
 Fork the repository.
 Create a new branch for your feature or fix.
 Submit a pull request detailing your changes.
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
-
-
