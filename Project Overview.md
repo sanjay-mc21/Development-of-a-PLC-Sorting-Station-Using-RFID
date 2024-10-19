@@ -82,7 +82,3 @@ The results demonstrate that the RFID-based Industrial IoT module improves sorti
 ## Conclusion
 
 The project successfully developed an RFID-based PLC sorting station integrated with an Industrial IoT module. The system improved sorting efficiency by providing real-time tracking and control via Node-RED. These findings contribute to advancements in automated sorting systems in industrial environments.
-
----
-
-For further details or to view the source code, visit the GitHub repository. If you wish to download the complete report as a PDF, click [here](https://github.com/your-repo-link).
