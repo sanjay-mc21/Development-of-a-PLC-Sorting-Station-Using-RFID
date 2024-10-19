@@ -59,10 +59,9 @@ The **PLC Sorting Station Using RFID** project aims to develop an advanced sorti
 ---
 
 ## Usage
-1. Ensure all hardware components are connected according to the wiring diagrams provided in the `docs` folder.
+1. Ensure all hardware components are connected according to the wiring diagrams.
 2. Power on the system and start Node-RED.
-3. Access the Node-RED dashboard through your web browser at `http://localhost:1880`.
-4. Place objects with RFID tags on the conveyor; the system will automatically sort them based on predefined criteria.
+3. Place objects with RFID tags on the conveyor; the system will automatically sort them based on predefined criteria.
 
 ---
 
