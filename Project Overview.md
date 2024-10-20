@@ -61,6 +61,34 @@ Previous research has demonstrated the potential of RFID technology in logistics
 
 ---
 
+## Software Setup
+1. **Node-RED:** Ensure Node-RED is installed. [Installation Guide](https://nodered.org/docs/getting-started/installation).
+2. **PLC Environment:** Install TIA Portal or your preferred PLC programming environment.
+
+---
+
+## Usage
+1. Ensure all hardware components are connected according to the wiring diagrams.
+2. Power on the system and start Node-RED.
+3. Place objects with RFID tags on the conveyor; the system will automatically sort them based on predefined criteria.
+
+---
+
+## Testing and Results
+The sorting station has been tested to ensure accurate RFID tag reading and effective sorting. Detailed results and performance metrics are documented in the `tests` folder.
+
+
+---
+
+## Troubleshooting
+- **Issue:** RFID reader not detecting tags.
+  - **Solution:** Check connections and ensure tags are within the reader's range.
+  
+- **Issue:** Solenoid valve not activating.
+  - **Solution:** Verify the PLC code and ensure the correct signals are being sent from the ESP32.
+
+---
+
 ## Implementation
 
 The implementation involved assembling the sorting station, integrating RFID technology, and programming the PLC. A Node-RED dashboard was created to provide real-time updates on the sorting process. The system was tested for object identification accuracy and sorting efficiency, with performance optimizations made where necessary.
